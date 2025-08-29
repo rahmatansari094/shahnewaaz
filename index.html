@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahnewaaz - Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #3498db;
+        }
+        
+        h1 {
+            font-size: 36px;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 15px;
+        }
+        
+        .contact-info div {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        h2 {
+            color: #3498db;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #eaeaea;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        h2 i {
+            font-size: 20px;
+        }
+        
+        .education-item, .internship-item, .project-item {
+            margin-bottom: 20px;
+        }
+        
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: 500;
+            color: #2c3e50;
+        }
+        
+        .date {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .location {
+            color: #7f8c8d;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding-left: 5px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            position: relative;
+            padding-left: 20px;
+        }
+        
+        li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #3498db;
+        }
+        
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .skill-category {
+            flex: 1;
+            min-width: 250px;
+        }
+        
+        .skill-category h3 {
+            margin-bottom: 10px;
+            color: #2c3e50;
+            font-size: 18px;
+        }
+        
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .skill {
+            background-color: #e8f4fc;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                margin: 15px;
+            }
+            
+            .item-header {
+                flex-direction: column;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SHAHNEWAAZ</h1>
+            <div class="contact-info">
+                <div><i class="fas fa-map-marker-alt"></i> Faridabad, Haryana</div>
+                <div><i class="fas fa-phone"></i> +91-9873870094</div>
+                <div><i class="fas fa-envelope"></i> shahnewaazansari169@gmail.com</div>
+                <div><i class="fab fa-linkedin"></i> LinkedIn</div>
+            </div>
+        </header>
+        
+        <section class="section">
+            <h2><i class="fas fa-graduation-cap"></i> EDUCATION</h2>
+            <div class="education-item">
+                <div class="item-header">
+                    <span>JBS, Jaypee Institute of Information Technology, Noida</span>
+                    <span class="date">2022 – 2025</span>
+                </div>
+                <div>BBA - Bachelors Business Administration - CGPA - 7.8</div>
+                <div class="location">Noida, Uttar Pradesh</div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2><i class="fas fa-briefcase"></i> INTERNSHIPS</h2>
+            <div class="internship-item">
+                <div class="item-header">
+                    <span>MACO Corporation Pvt Ltd.</span>
+                </div>
+                <ul>
+                    <li>Orientation and Data Collection - Introduction to Maco Corporation and created with entries over 200 entries.</li>
+                    <li>Data Filtering and Refinement – Sorting business according to turnover (Over 500 crores).</li>
+                    <li>Contact Information Collection - Gathering contact details and official email IDs.</li>
+                    <li>Catalog Creation – Designed the catalog's structure and layout.</li>
+                </ul>
+            </div>
+            
+            <div class="internship-item">
+                <div class="item-header">
+                    <span>NGO Intern at Umeed a Drop of Hope / Volunteer</span>
+                    <span class="date">June 2023 - July 2023</span>
+                </div>
+                <ul>
+                    <li>Project Management: Planning, implementing, and social, environmental, or humanitarian issues.</li>
+                    <li>Fundraising and Grant Writing: Organizing fundraising events to support the organization's initiatives.</li>
+                    <li>Volunteer Management: Coordinating volunteers to assist with various projects and activities.</li>
+                    <li>Community Outreach: Engaging communities to understand their needs and raise awareness.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2><i class="fas fa-tasks"></i> PROJECTS</h2>
+            <div class="project-item">
+                <div class="item-header">
+                    <span>Fund Raising</span>
+                </div>
+                <ul>
+                    <li>Organizing fundraising events such as galas, charity auctions, and walks/runs.</li>
+                </ul>
+            </div>
+            
+            <div class="project-item">
+                <div class="item-header">
+                    <span>Social Media Marketing</span>
+                </div>
+                <ul>
+                    <li>Social media platforms to raise awareness and promote the organization's mission and activities.</li>
+                    <li>Actively engage with followers by responding to comments, messages, and mentions.</li>
+                </ul>
+            </div>
+            
+            <div class="project-item">
+                <div class="item-header">
+                    <span>Hygiene Awareness to Street Vendors</span>
+                </div>
+                <ul>
+                    <li>Hygiene awareness among street vendors to promote public health and safety.</li>
+                    <li>Educational materials and messages in the local language spoken by the street vendors.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2><i class="fas fa-laptop-code"></i> TECHNICAL SKILLS</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Presentation</h3>
+                    <div class="skills-list">
+                        <span class="skill">PowerPoint</span>
+                        <span class="skill">Canva</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Marketing Strategy</h3>
+                    <div class="skills-list">
+                        <span class="skill">SEO</span>
+                        <span class="skill">SMM</span>
+                        <span class="skill">Email Marketing</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Content Creator</h3>
+                    <div class="skills-list">
+                        <span class="skill">YouTube</span>
+                        <span class="skill">Premiere Pro</span>
+                        <span class="skill">Pixelab</span>
+                        <span class="skill">PowerPoint</span>
+                        <span class="skill">Piccart</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2><i class="fas fa-certificate"></i> CERTIFICATIONS</h2>
+            <ul>
+                <li>Research Methodology Course - SURGhub</li>
+                <li>Excel Fundamentals - CFI</li>
+                <li>Digital Marketing Strategy - Great Learning</li>
+            </ul>
+        </section>
+        
+        <section class="section">
+            <h2><i class="fas fa-star"></i> EXTRA CURRICULAR</h2>
+            <ul>
+                <li>Content Creator on YouTube. 2019 – 2022</li>
+                <li>Video Photo Editor on Freelancing Upwork. 2020 – 2024</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
